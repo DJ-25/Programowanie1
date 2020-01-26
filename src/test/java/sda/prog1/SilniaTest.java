@@ -30,5 +30,7 @@ public class SilniaTest {
     public void testSilnia5() {
         int silniaValue = Silnia.silnia(5);
         assertEquals(120, silniaValue);
+
+        System.out.println("Nowa Linia");
     }
 }
