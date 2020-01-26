@@ -10,11 +10,13 @@ import static org.junit.Assert.*;
 
 public class SilniaTest {
 
+    //TODO dołożyć obsługę błędów
     @Before
     public void setup() {
         System.out.println("Biforek");
     }
 
+    //FIXME
     @After
     public void clean() {
         System.out.println("Afterek");
